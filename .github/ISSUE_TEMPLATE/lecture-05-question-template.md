@@ -1,0 +1,20 @@
+---
+name: 'Lecture 05 Question Template '
+about: Template to post a question related to Lecture 05
+title: ''
+labels: ":books: Lecture 05"
+assignees: ''
+
+---
+
+# Description
+
+Description of the question here.
+
+## Topic:
+
+Specific Topics this question is related to (If Any)
+
+## Screenshots
+
+Screenshots (if any)
