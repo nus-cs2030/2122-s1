@@ -16,6 +16,7 @@ Do feel free to update this list with commands that you think is useful.
 - `:vert term` vertically split a terminal session.
 - `^W/<ctrl+w>` followed by `<arrow keys/hjkl>`  to navigated between opened split screen windows
 - `:!<shell command>` Immediately execute terminal commands in vim
+- `:tabnew <filename>` opens or creates the file in a new tab
 
 
 
@@ -61,6 +62,10 @@ Do feel free to update this list with commands that you think is useful.
 
 - `X` backspace key when not in insert mode
 
+- `[[` skip to start point of file
+
+- `]]` skip to end point of file
+
   
 
 
@@ -68,6 +73,7 @@ Do feel free to update this list with commands that you think is useful.
 ## Others
 
 - `ZZ` , `:wq` Save and quit
+- `:wqa` Save and quit all buffers (tabs open in vim)
 - `:s/<regex pattern>/<replaced text>/<regex flags>` search and replace using regular expressions on the current line your cursor is on
 - `:%s/<regex pattern>/<replaced text>/<regex flags>` search and replace using regular expressions on the whole file
 - `:<startline>,<endline>s/<regex pattern>/<replaced text>/<regex flags>` search and replace using regular expressions on the text between the start line and end line.
