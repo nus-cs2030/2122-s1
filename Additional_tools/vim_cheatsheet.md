@@ -74,9 +74,15 @@ Do feel free to update this list with commands that you think is useful.
 
 - `ZZ` , `:wq` Save and quit
 - `:wqa` Save and quit all buffers (tabs open in vim)
-- `:s/<regex pattern>/<replaced text>/<regex flags>` search and replace using regular expressions on the current line your cursor is on
-- `:%s/<regex pattern>/<replaced text>/<regex flags>` search and replace using regular expressions on the whole file
+- `:s/<regex pattern>/<replaced text>/<regex flags>` search and replace using regular expressions on the current line your cursor is on.
+- `:%s/<regex pattern>/<replaced text>/<regex flags>` search and replace using regular expressions on the whole file, add `/gc` at the end to choose which words to replace.
 - `:<startline>,<endline>s/<regex pattern>/<replaced text>/<regex flags>` search and replace using regular expressions on the text between the start line and end line.
 
 Note if you confused with what regex search and replace, you can just think of it as /search_string/replace_string/g to replace all instance of search_string with replace_string in the range specified but take note some special characters like `.` will cause some issues if you use them like normal search and replace.
 
+### How To Comment Multiple Lines
+- From normal mode, press `Ctrl` + `v` to enter V-BLOCK mode in vim. V-BLOCK mode is where we only select the begining of several lines
+- Highlight all the code you want to comment out
+- Then press `Shift` + `I` to enter into insert mode
+- In insert mode you want to comment out code, so type `//` once
+- Lastly, hit `Esc` and see that your highlighted code has been commented!
